@@ -1,6 +1,6 @@
 # [CNet-SVM (Connected network-constrained Support Vector Machine)](https://github.com/zpliulab/CNet-SVM)
 
-![Screenshot](Data/HGSOC.jpg)
+![Screenshot](Data/framework.jpg)
 
 In this work, a **connected network-constrained support vector machine (CNet-SVM) model** for feature selection considering the structural connectivity in a network was proposed. Mathematically, it was a convex optimization problem constrained by inequalities reflecting network connectivity.
 
