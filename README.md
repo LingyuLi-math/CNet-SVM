@@ -1,13 +1,13 @@
-# [CNet-SVM (Connected network-constrained Support Vector Machine)](https://github.com/zpliulab/CNet-SVM)
+# [LogBTFs (Embedding logistic regression into Boolean threshold functions to reconstruct Boolean threshold network)](https://github.com/zpliulab/logBTFs)
 
 ![Screenshot](Data/framework.jpg)
 
-In this work, a **connected network-constrained support vector machine (CNet-SVM) model** for feature selection considering the structural connectivity in a network was proposed. Mathematically, it was a convex optimization problem constrained by inequalities reflecting network connectivity.
+In this work, an **embedded Boolean threshold network model by aggregating logistic regression with Boolean threshold functions (LogBTFs) ** for inferring gene regulatory networks from single-cell gene expression data was proposed. 
 
 
-## CNet
+## LogBTFs
 <!--START_SECTION:news-->
-* **CNet**: A **connected network-constrained support vector machine (CNet-SVM) model** is proposed to perform **feature selection**. 
+* ** LogBTFs **: A ** embedded Boolean threshold network model (LogBTFs) ** is proposed to infer **gene regulatory networks**. 
 * In both **synthetic simulation data** and real-world **breast cancer (BRCA) genomics data**, we validated the CNet-SVM model is efficient to identify the **connected-network-structured features** that can serve as **diagnostic biomarkers**.
 * In the comparison study, we also proved the proposed **CNet-SVM model** results in better classification performance and feature interpretability than one wrapped method named **SVM-RFE**, one filter method named **mRMR-SVM** and **four embedded regularized support vector machine (Reg-SVM)** alternatives.
 * If you have any questions about **CNet-SVM**, please directly contact the corresponding author [Prof. Zhi-Ping Liu](https://scholar.google.com/citations?user=zkBXb_kAAAAJ&hl=zh-CN&oi=ao) with the E-mail: zpliu@sdu.edu.cn
@@ -15,7 +15,7 @@ In this work, a **connected network-constrained support vector machine (CNet-SVM
 
 
 ## Citation
-Li, Lingyu, and Zhi-Ping Liu. "**Biomarker discovery from high-dimensional omics data by connected network-constrained support vector machine**." Submit to [Expert Systems with Applications](https://www.journals.elsevier.com/expert-systems-with-applications).  
+Li, Lingyu, et al. "** LogBTFs: Gene regulatory network inference using Boolean threshold networks model from single-cell gene expression data**." Submit to [Expert Systems with Applications](https://www.journals.elsevier.com/expert-systems-with-applications).  
 
 
 ## Data
@@ -109,5 +109,5 @@ The **serial number (1), (2), ..., (9)** represents the order in which the progr
 <!--END_SECTION:news-->
 
 
-## CNet (2022), Zhi-Ping Liu all rights reserved
+## LogBTFs (2022), Zhi-Ping Liu all rights reserved
 This program package is supported by the copyright owners and coders "as is" and without warranty of any kind, express or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. In no event shall the copyright owner or contributor be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, without limitation, procurement of substitute goods or services; loss of use, data, or profits; or business interruption), regardless of the theory of liability, whether in contract, strict liability or tort (including negligence or otherwise) for any use of the software, even if advised of the possibility of such damages.
